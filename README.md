@@ -24,6 +24,7 @@ Payload: {
     "isActive": true
 }
 5. For using Delete API use DELETE method & URI: http://localhost:8080/user/delete/123456 
+6. TO Run Junit uncomment the Class and run it outside the application using mvn surefire:test -DuserControllerTest=UserControllerTest
 
 This is how you can use the basic CUD operations for the User Database.
 
